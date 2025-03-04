@@ -53,10 +53,10 @@ python Hw2Rev3.py
 
 ## Expected Output
 The program displays the original puzzle and the solutions found using both basic and smart solvers for each puzzle difficulty level. Additionally, it reports the execution time and the number of value assignments made by each solver, allowing for a direct comparison of their performance. An example of the output from the Python program is included below.
+```
 ******************************
        Solving Easy Sudoku
 ******************************
-
 
 ============================
         Basic Solver
@@ -73,9 +73,7 @@ Sudoku solved in 0.001 seconds
 8  4  1  6  5  3  9  7  2
 2  7  9  1  4  8  3  6  5
 
-
 Total Assignments: 143 
-
 
 ============================
         Smart Solver
@@ -92,10 +90,8 @@ Sudoku solved in 0.0205 seconds
 8  4  1  6  5  3  9  7  2
 2  7  9  1  4  8  3  6  5
 
-
 Total Assignments: 45 
-
----
+```
 
 ## Inspirations for the Functions in My Code
 While the program runs efficiently, I cannot take full credit for it. Many of the functions implemented in this program came from the *AIMA-Python* GitHub repository:
