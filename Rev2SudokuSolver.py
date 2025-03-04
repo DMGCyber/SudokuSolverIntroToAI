@@ -232,7 +232,12 @@ for level, puzzle in puzzles.items(): # The for loop iterates over the dictionar
 
 """
 References 
+
 Chatgpt. (n.d.-a). https://chatgpt.com/ 
-Utilized to assist with the structure of the code 
+* Utilized to assist with the structure of the code 
 and to make it more elegant and efficient.
+
+Aimacode. (n.d.-b). Aimacode/aima-python: Python implementation of algorithms from Russell and Norvig’s 
+“artificial intelligence - A modern approach.” GitHub. https://github.com/aimacode/aima-python 
+* This utilized to assist with some of the backtracking functions and algorithms
 """
