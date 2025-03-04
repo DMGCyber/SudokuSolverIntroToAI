@@ -1,5 +1,4 @@
-# Back Down Memory Lane: 
-## README for Sudoku Solver using Simple & Smart Backtracking
+# Back Down Memory Lane: README for Sudoku Solver using Simple & Smart Backtracking
 
 ## Synopsis of the Program
 This program was a fun challenge, as I had never attempted to complete a Sudoku puzzle before completing this assignment. I still have a long way to go before I can complete puzzles at the speed of this program, but I digress. This Python program solves Sudoku puzzles using Constraint Satisfaction Problem (CSP) approaches. It implements a basic and smart backtracking solver incorporating the Minimum Remaining Values (MRV) heuristic. The implementation is inspired by techniques found in the *Artificial Intelligence: A Modern Approach (AIMA)* GitHub repository. The program solves four Sudoku test puzzles at different difficulty levels: Easy, Medium, Hard, and Evil, as outlined in the assignment. It reports the time taken and the number of value assignments each solving approach makes.
