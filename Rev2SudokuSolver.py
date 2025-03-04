@@ -208,7 +208,8 @@ puzzles = {
              [0, 0, 0, 0, 0, 5, 0, 4, 0]]
 }
 
-import copy
+import copy # The copy module in  provides functions for creating copies of objects.
+# It helps duplicate objects without modifying the original.
 
 for level, puzzle in puzzles.items(): # The for loop iterates over the dictionary puzzles to
     # solve multiple Sudoku puzzles at different difficulty levels.
@@ -218,12 +219,14 @@ for level, puzzle in puzzles.items(): # The for loop iterates over the dictionar
     print("*" * 30 + "\n") # Another separator below the title
 
     # Create a copy of the puzzle for the basic solver
-    sudoku_solver = SudokuCSP(copy.deepcopy(puzzle))
+    sudoku_solver = SudokuCSP(copy.deepcopy(puzzle)) # copy.deepcopy(puzzle) ensures that the solver gets a
+    # fresh copy of the unsolved Sudoku puzzle.
     sudoku_solver.solve() # This calls the solve() method,
     # which uses basic backtracking to solve the Sudoku.
 
     # Create a new copy for the smart solver to ensure it starts fresh
-    sudoku_solver_smart = SudokuCSP(copy.deepcopy(puzzle))
+    sudoku_solver_smart = SudokuCSP(copy.deepcopy(puzzle)) # copy.deepcopy(puzzle) ensures that the solver gets a
+    # fresh copy of the unsolved Sudoku puzzle.
     sudoku_solver_smart.solve_smart() # This calls the solve_smart() method, which,
     # uses a smarter algorithm (MRV heuristic + backtracking).
 
